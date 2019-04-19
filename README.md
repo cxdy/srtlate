@@ -1,0 +1,2 @@
+# srtlate
+translate SRT files
