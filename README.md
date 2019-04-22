@@ -39,7 +39,7 @@ I had a pretty happy childhood
 
 ### Example Output SRT (French)
 ```
-
+1
 00:00:11,636 --> 00:00:13,221
 Josh communiquait mais
 
