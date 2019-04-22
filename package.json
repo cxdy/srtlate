@@ -17,7 +17,9 @@
   },
   "homepage": "https://github.com/cxdy/strlate#readme",
   "dependencies": {
+    "after-all": "^2.0.2",
     "aws-sdk": "^2.440.0",
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "glob": "^7.1.3"
   }
 }
