@@ -1,10 +1,10 @@
 # srtlate
 translate SRT files
 
-
 ### Usage
 1. Clone the repo
 2. run `npm install`
+3. Set AWS credentials in  `~/.aws/credentials` - more info [here](https://aws.amazon.com/developers/getting-started/nodejs/)
 3. Open up `app.js` and set your SourceLanguage and TargetLanguage in `params` up top.
 =================================================================================
 You *might* have to comment out line 15 (`Translator.Translator(params);`) on the first run because I don't understand asynchronous programming yet and that line runs before the SRT -> JSON conversion. Run it once with that line commented and it'll generate a JSON file (import.json) for you to use. Uncomment it to perform the actual translation.
